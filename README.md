@@ -95,7 +95,7 @@ Following the spaced repetition methodology, the following schedule was proposed
 
 [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
-**Day 17 (Linked List #1**
+**Day 17 (Linked List #1)**
 
 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
