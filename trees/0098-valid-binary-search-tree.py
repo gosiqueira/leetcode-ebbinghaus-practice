@@ -16,7 +16,7 @@ def checkValid(root: TreeNode) -> bool:
     if not checkValid(root.left):
         return False
     
-    if last_visited is not None and root.val <= last_visited:
+    if last_visited and root.val <= last_visited:
         return False
     
     last_visited = root.val

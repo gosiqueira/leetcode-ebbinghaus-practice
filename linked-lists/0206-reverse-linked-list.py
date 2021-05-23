@@ -5,7 +5,7 @@ def reverseList(head: ListNode) -> ListNode:
         cur = head
         prev = None
 
-        while cur.next != None:
+        while cur.next:
             nxt = cur.next
             cur.next = prev
 
