@@ -26,7 +26,7 @@ vector<vector<int>> threeSum(vector<int>& nums) {
             else {
                 vector<int> match({n, nums[l++], nums[r]});
                 response.push_back(match);
-                while (nums[l] == nums[l-1] and l < r) {
+                while (nums[l] == nums[l-1] && l < r) {
                     l++;
                 }
             }
