@@ -1,5 +1,7 @@
 #include <vector>
 
+using namespace std;
+
 void rotate(vector<vector<int>>& matrix) {
     for(int layer = 0; layer < matrix.size() / 2; layer++) {
         int first = layer;
