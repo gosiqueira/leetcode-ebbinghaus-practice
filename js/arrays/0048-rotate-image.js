@@ -8,8 +8,8 @@ var rotate = function(matrix) {
             var top = matrix[first][i]
             
             matrix[first][i] = matrix[last - offset][first]
-            matrix[last - offset][first] = matrix[last][last-offset]
-            matrix[last][last-offset] = matrix[i][last]
+            matrix[last - offset][first] = matrix[last][last - offset]
+            matrix[last][last - offset] = matrix[i][last]
             matrix[i][last] = top
         }
     }
