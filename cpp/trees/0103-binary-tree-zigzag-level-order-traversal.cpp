@@ -1,6 +1,6 @@
 #include <algorithm>
-#include <vector>
 #include <queue>
+#include <vector>
 #include <structures.h>
 
 using namespace std;
