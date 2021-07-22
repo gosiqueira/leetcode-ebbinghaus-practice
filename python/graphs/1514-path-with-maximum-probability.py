@@ -22,8 +22,8 @@ def maxProbability(n: int, edges: List[List[int]], succProb: List[float], start:
         
         if cur == end:
             return -1 * cur_prob
-        for neighboor in graph[cur]:
-            if neighboor[0] not in visited:
-                heapq.heappush(probs, [cur_prob * neighboor[1], neighboor[0]])
+        for neighbor in graph[cur]:
+            if neighbor[0] not in visited:
+                heapq.heappush(probs, [cur_prob * neighbor[1], neighbor[0]])
 
     return 0

@@ -25,9 +25,9 @@ double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succPro
         if (cur.second == end) return cur.first;
         visited.insert(cur.second);
         
-        for (const auto neighboor : adj_list[cur.second]) {
-            if (visited.find(neighboor.first) == visited.end()) {
-                q.push({cur.first * neighboor.second, neighboor.first});
+        for (const auto neighbor : adj_list[cur.second]) {
+            if (visited.find(neighbor.first) == visited.end()) {
+                q.push({cur.first * neighbor.second, neighbor.first});
             }
         }
     }
