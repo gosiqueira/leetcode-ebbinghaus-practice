@@ -1,6 +1,6 @@
 var levelOrder = function(root) {
     var response = [];
-    if (root == undefined) return response;
+    if (root === undefined) return response;
     
     var queue = [];
     queue.push(root);
