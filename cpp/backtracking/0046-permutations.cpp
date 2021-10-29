@@ -1,4 +1,7 @@
 #include <algorithm>
+#include <vector>
+
+using namespace std;
 
 void permuting(vector<int> nums, int i, int n, vector<vector<int>> &permutations){
     if (i == n - 1){
