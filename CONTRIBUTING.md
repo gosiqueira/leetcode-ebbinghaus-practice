@@ -125,26 +125,28 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/gosiqu
 
 <!-- You might want to create an issue template for enhancement suggestions that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
 
-### Your First Code Contribution
-<!-- TODO
-include Setup of env, IDE and typical getting started instructions?
-
--->
-
-### Improving The Documentation
-<!-- TODO
-Updating, improving and correcting the documentation
-
--->
-
 ## Styleguides
+
+### Create new branches
+Branches must be named following the pattern described below: `<issue_number>-<github_username>-<feature_short_description>`
+
+    13-gosiqueira-python-hashes
+
 ### Commit Messages
-<!-- TODO
+Commit messages should follow one of the following formats:
+  1. Short message: `#<issue_number>: one line commit description.`
+  
+    #13: Add solution for exercise #1539 in Python.
 
--->
+  2. Long message: `A first line with general description followed by details in the next lines. Associated the issue number in the last line`
 
-## Join The Project Team
-<!-- TODO -->
+    Add solution for hashes exercises in Python.
+    In this commit is included the solutions for the following LeetCode exercises using Python programming language:
+    * #0166: Fraction to recurring decimal
+    * #1529: Kth missing positive number
+    * #1679: Max number of K sum pairs
+
+    This commit is associated to issue #13.
 
 <!-- omit in toc -->
 ## Attribution
